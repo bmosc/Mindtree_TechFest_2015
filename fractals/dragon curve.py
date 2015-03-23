@@ -32,6 +32,7 @@ hideturtle()
 # Lindenmayer Notation
 
 # Dragon Curve
+up(); goto(0, -180); down();
 draw_fractal(3, 90, 14, 'FX', 'X', 'X+YF+', 'Y', '-FX-Y')
 
 exitonclick()
