@@ -33,6 +33,7 @@ hideturtle()
 
 # Quadratic Koch Island
 up(); goto(0, 260); down();
+setup(1.0, 1.0)
 draw_fractal(1, 90, 4, 'X+X+X+X', 'X', 'FX-FX+FX+FXFXFX-FX-FX+FX', '', '')
 
 exitonclick()

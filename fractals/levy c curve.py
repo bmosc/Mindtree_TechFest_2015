@@ -32,6 +32,8 @@ hideturtle()
 # Lindenmayer Notation
 
 # Levy C
+up(); goto(-250, 205); down();
+setup(1.0, 1.0)
 draw_fractal(3, 45, 15, 'F', 'F', '+F--F+', '', '')
 
 exitonclick()

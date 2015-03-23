@@ -33,6 +33,7 @@ hideturtle()
 
 # Koch Flake - Cesaro Variant
 up(); goto(-256, 0); down();
+setup(1.0, 1.0)
 draw_fractal(2, 75, 6, 'FX', 'X', 'X-FX++FX-FX', '', '')
 
 exitonclick()

@@ -33,6 +33,7 @@ hideturtle()
 
 # Dragon Curve
 up(); goto(0, -180); down();
+setup(1.0, 1.0)
 draw_fractal(3, 90, 14, 'FX', 'X', 'X+YF+', 'Y', '-FX-Y')
 
 exitonclick()

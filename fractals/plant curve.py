@@ -33,6 +33,7 @@ def draw(cmds, size=2):
     turtle.update()
 
 def setup():
+    turtle.setup(1.0, 1.0)
     turtle.hideturtle()
     turtle.tracer(1e1,0)
     turtle.left(90)

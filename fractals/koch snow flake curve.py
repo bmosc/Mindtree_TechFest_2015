@@ -33,6 +33,7 @@ hideturtle()
 
 # Koch Flake
 up(); goto(-180, 60); down();
+setup(1.0, 1.0)
 draw_fractal(1, 60, 5, 'X++X++X', 'X', 'FX-FX++XF-XF', '', '')
 
 exitonclick()
